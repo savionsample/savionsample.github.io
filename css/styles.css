@@ -5,7 +5,6 @@ html, body {
     margin: 0em;
     padding: 0em;
     box-sizing: border-box;
-    overflow-x: hidden;
 /*    overflow-x: hidden:*/
 }
 
@@ -30,6 +29,10 @@ body {
     box-sizing: border-box;
 }
 
+.image {
+    overflow-x: hidden;
+}
+
 #circle {
     float: left;
     width: 10.8em;
@@ -49,6 +52,7 @@ body {
     background-size: cover;
     width: 100%;
     box-sizing: border-box;
+    overflow-x: hidden;
 }
 
 /* BUTTONS ---  http://codepen.io/davekilljoy/*/
@@ -190,6 +194,7 @@ h6 {
 
 #about-me {
     background-color: #add2d2;
+    overflow-x: hidden;
 }
 
 .about {
@@ -202,6 +207,7 @@ footer
 {
     background-color : #173042;
     box-sizing: border-box;
+    overflow-x: hidden;
 }
 
 a {
@@ -242,6 +248,7 @@ a:hover {
     width: 100%;
     background-color: rgb(240, 240, 240);
     box-sizing: border-box;
+    overflow-x: hidden;
 }
 
 hr {
