@@ -2,8 +2,9 @@ html, body {
     height: 100%;
     width: 100%;
     text-align: center;
-    margin: 0px;
-    padding: 0px;
+    margin: 0em;
+    padding: 0em;
+    box-sizing: border-box;
 /*    overflow-x: hidden:*/
 }
 
@@ -48,7 +49,6 @@ body {
 /* BUTTONS ---  http://codepen.io/davekilljoy/*/
 button {
     position: relative;
-    //display:block;
     height: 4em;
     width: 10em;
     margin: .62em .4em;
@@ -105,8 +105,8 @@ h2 {
     text-align: center;
     font-weight: 300;
     font-size: 2.2em;
-    padding-top: 2.5em;
-    padding-bottom: 6.25em;
+    padding-top: 2em;
+    padding-bottom: 4em;
     z-index: -20;
 }
 
