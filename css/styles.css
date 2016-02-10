@@ -5,6 +5,7 @@ html, body {
     margin: 0em;
     padding: 0em;
     box-sizing: border-box;
+    overflow-x: hidden;
 /*    overflow-x: hidden:*/
 }
 
