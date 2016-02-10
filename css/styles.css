@@ -34,16 +34,18 @@ body {
 }
 
 #circle {
-    float: left;
+    /*float: left;*/
     width: 10.8em;
     height: 10.8em;
     background-image: url(../img/profilepic2.png);
     -moz-border-radius: 3.1em;
     -webkit-border-radius: 3.1em;
     border-radius: 62.5em;
-    margin-left: 42%;
-    margin-top: calc(30% - 2.8em);
+    margin-left: calc(100% / 2 - (10.8em / 2));
+    margin-top: calc(100% / 6);
     box-sizing: border-box;
+
+
 }
 
 .mid-page {
@@ -54,6 +56,19 @@ body {
     box-sizing: border-box;
     overflow-x: hidden;
 }
+
+
+/*
+.circle {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  height: 0;
+  padding: 50% 0;
+  border-radius: 50%;
+
+  background: #38a9e4;
+}*/
 
 /* BUTTONS ---  http://codepen.io/davekilljoy/*/
 button {
@@ -106,11 +121,23 @@ button {
 }
 
 h1 {
-    font-size: 4em;
+    font-size: 4vw;
     text-align: center;
     color: white;
-    /*margin-top: 420px;*/
-    margin-top: 37%;
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+.container {
+    text-align: center;
+}
+
+.test {
+        /*font-size: 4em;*/
+    font-size: 4vw;
+    text-align: center;
+    color: black;
+    /*margin-top: 37%;*/
     font-family: 'Open Sans', sans-serif;
     box-sizing: border-box;
 }
@@ -127,6 +154,16 @@ h2 {
 
 h3 {
     font-size: 1.3em;
+    font-weight: 300;
+    text-align: center;
+    color: white;
+    margin-top: .3em;
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+h4 {
+    font-size: 2vw;
     font-weight: 300;
     text-align: center;
     color: white;
@@ -171,7 +208,7 @@ h6 {
 @media only screen and (min-width: 768px) and (min-height: 700px) {
     .bounce {
       position:fixed;
-      left:50%;
+      left: calc(100% / 2 - .7em);
       bottom:0;
       margin-top:-1.56em;
       margin-left:-4.7em;
@@ -253,7 +290,7 @@ a:hover {
 
 hr {
     width: 19.8em;
-    box-sizing: border-box;
+    text-align: center;
 }
 
 .row {
