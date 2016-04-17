@@ -66,7 +66,7 @@ body {
 button {
     position: relative;
     height: 4em;
-    width: 10em;
+    width: 11em;
     margin: .62em .4em;
     padding: .31em .3em;
     font-weight: 700;
@@ -276,6 +276,11 @@ a:hover {
 
 #first {
     background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url(../img/github.png);
+}
+
+#second {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url(../img/menlohacks.png);
+    background-size: cover;
 }
 
 .what-i-do {
